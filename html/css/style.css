@@ -1,0 +1,17 @@
+html
+{
+    scroll-behavior: smooth;
+}
+
+html, body
+{
+    min-height: 100%;
+}
+
+:target::before
+{
+    content: "";
+    display: block;
+    height: 85px;
+    margin: -85px 0 0;
+  }
